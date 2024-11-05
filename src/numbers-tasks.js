@@ -159,7 +159,6 @@ function parseNumberFromString(value) {
  */
 function getParallelepipedDiagonal(a, b, c) {
   return Math.sqrt(a * a + b * b + c * c);
-  /* return Math.hypot(a, b, c); */
 }
 
 /**
